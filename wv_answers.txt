@@ -1,0 +1,16 @@
+
+In which counties did President Obama receive his highest and lowest percentages?
+Highest: Jefferson
+Lowest: Grant
+
+How many counties did President Obama receive less than 50% of the vote?
+56
+
+What was the largest difference in the number of votes between Manchin and Obama? Which county?
+46255 in Kanawha
+
+What was the largest percentage difference between Manchin and Obama? Which county?
+74.64% difference in Logan
+
+Did President Obama receive a larger percentage of the vote than Manchin in any counties? Which ones?
+No, there were no counties where Obama received a larger percentage of the vote than Manchin.
