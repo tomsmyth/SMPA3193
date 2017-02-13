@@ -1,0 +1,16 @@
+Tom Smyth
+
+Show the total amount of money spent in each state.
+SELECT state, SUM(amount) FROM mandel GROUP BY state;
+
+Show the total amount for each purpose, with the largest amount first.
+SELECT purpose, SUM(amount) FROM mandel GROUP BY purpose ORDER BY SUM(amount) DESC;
+
+Show the total amount of any expenditures related to direct mail.
+SELECT purpose, amount FROM mandel WHERE purpose LIKE '%direct mail%';
+
+Show the total amount spent for each month and year, with the largest amount first
+SELECT month, year, SUM(amount) FROM mandel GROUP BY month, year ORDER BY SUM(amount) DESC;
+
+Show the recipients and total amounts for Payroll expenses, but not payroll taxes or fees.
+SELECT payee, purpose, amount FROM mandel WHERE purpose LIKE '%payroll';
